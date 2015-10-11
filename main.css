@@ -12,15 +12,6 @@ HEADER
 /*top*/
 header{
 	background: #E86828;
-	margin: 0px;
-	padding: 0px;
-
-}
-
-header > span {
-	position: relative;
-	padding: 5px;
-	    top: 6px;
 }
 
 .ship{
@@ -30,29 +21,19 @@ header > span {
 	border-radius: 3px;
 }
 
+header:first-child span {
+	float: left;
+	padding-left: 10px ;
+	padding-right: 10px;
+}
 
-header span nav {
-	position: relative;
+.discounts li{
+	float: left;
+	list-style: none;
 
 }
 
-
-
-nav {
-position: relative;
-}
-
-nav ul {
-	    position: relative;
-    bottom: 27px;
-    left: 240px;
-}
-
-nav ul li {
-	display: inline;
-}
-
-
-body {
-
+/*2header*/
+.header2{
+	clear: both;
 }
