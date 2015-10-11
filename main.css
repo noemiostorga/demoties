@@ -1,0 +1,58 @@
+
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*******************
+HEADER
+********************/
+/*top*/
+header{
+	background: #E86828;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+header > span {
+	position: relative;
+	padding: 5px;
+	    top: 6px;
+}
+
+.ship{
+	background: #C04000;
+	font-size: 16px;
+	color: white;
+	border-radius: 3px;
+}
+
+
+header span nav {
+	position: relative;
+
+}
+
+
+
+nav {
+position: relative;
+}
+
+nav ul {
+	    position: relative;
+    bottom: 27px;
+    left: 240px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+
+body {
+
+}
