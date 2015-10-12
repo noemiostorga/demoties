@@ -11,7 +11,8 @@ HEADER
 ********************/
 /*top*/
 header{
-	background: #E86828;
+	background-color: #E86828;
+	height: 30px;
 }
 
 .ship{
@@ -36,4 +37,10 @@ header:first-child span {
 /*2header*/
 .header2{
 	clear: both;
+}
+
+.main-nav ul {
+	list-style: none;
+	display: inline;
+	float: left;
 }
